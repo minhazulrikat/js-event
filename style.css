@@ -1,0 +1,43 @@
+.container-fluid {
+    box-sizing: border-box;
+    input{
+        outline: none;
+        padding: 10px 0;
+
+    }
+}
+.active{
+    transform: translateX(0%);
+}
+aside{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3e2c2c48;
+    position: fixed;
+   transform: translateX(-100%);
+   transition: all .4s linear;
+    ul{
+        background: white;
+        height: 100%;
+        width: 30%;
+        position: absolute;
+        left: 0;
+        li{
+            list-style: none;
+            padding: 20px 0;
+
+        }
+    }
+    span{
+        position: absolute;
+        right: 30px;
+        top:10px;
+        i{
+            color:white;
+        }
+    }
+}
